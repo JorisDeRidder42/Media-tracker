@@ -10,7 +10,7 @@ const MediaCard = ({ media }) => {
         <div className="media-card-header">
           <h3>{media.title}</h3>
 
-          {media.favorite && <span>♥</span>}
+          {media.favorite && <span>❤️</span>}
         </div>
 
         <p>{media.status}</p>

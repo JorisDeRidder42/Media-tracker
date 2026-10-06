@@ -28,7 +28,7 @@ const Dashboard = () => {
         <section className="stats-grid">
           <StatCard label="Total Media" value={totalMedia} icon="📚" />
           <StatCard label="Currently Active" value={activeMedia} icon="📚" />
-          <StatCard label="Favorites" value={favorites} icon="♥" />
+          <StatCard label="Favorites" value={favorites} icon="❤️" />
         </section>
 
         <section>
