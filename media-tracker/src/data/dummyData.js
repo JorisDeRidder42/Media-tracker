@@ -20,6 +20,7 @@ export const media = [
     progress: 1,
     total: 1,
     favorite: true,
+    path: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cinefilos.it%2Fwp-content%2Fuploads%2F2018%2F08%2Finterstellar.jpg&f=1&nofb=1&ipt=8f8f02cc847c7f05a022802a3470cd5c6d14955521f3bad2a3faeab344fc8ba8&ipo=images",
   },
   {
     id: 3,
@@ -53,6 +54,7 @@ export const media = [
     progress: 89,
     total: 89,
     favorite: true,
+    path: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.QMfYwjC_8EUTEbGGsv7lHgHaD-%3Fr%3D0%26pid%3DApi&f=1&ipt=3d6c0a1b8de40348634bfbdf0c36eb4dea1a1f1b9538b99d56a5b04eae4cb2d5&ipo=images",
   },
   {
     id: 6,
@@ -64,6 +66,7 @@ export const media = [
     progress: 1,
     total: 1,
     favorite: false,
+    path: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BYzg4OTUzNmQtMzU0Yy00YTQ2LTgyZmItNjJkZjIwYWNmZjIyXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg&f=1&nofb=1&ipt=a14df7d24178200536756430975c7d56949cec03f53d286eaf41ba7dcd8b7e11&ipo=images",
   },
   {
     id: 7,
@@ -80,11 +83,11 @@ export const media = [
     id: 8,
     title: "Demon Slayer",
     type: "anime",
-    status: "watching",
+    status: "completed",
     rating: 8,
     genre: ["Action", "Fantasy"],
-    progress: 18,
+    progress: 63,
     total: 63,
-    favorite: false,
+    favorite: true,
   },
 ];
