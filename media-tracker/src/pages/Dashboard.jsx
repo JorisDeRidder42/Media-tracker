@@ -25,11 +25,11 @@ const Dashboard = () => {
           <button className="add-button">+ Add Media</button>
         </header>
 
-        <section className="stats-grid">
+        <div className="stats-grid">
           <StatCard label="Total Media" value={totalMedia} icon="🔥" />
           <StatCard label="Currently Active" value={activeMedia} icon="📚" />
           <StatCard label="Favorites" value={favorites} icon="❤️" />
-        </section>
+        </div>
 
         <section>
           <h2>Continue</h2>

@@ -218,3 +218,8 @@ select {
   color: #9296a3;
   text-decoration: none;
 }
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
