@@ -16,7 +16,7 @@ const MediaCard = ({ media }) => {
         <p>{media.status}</p>
 
         <div className="media-card-footer">
-          <span>⭐ {media.rating}</span>
+          <div>⭐ {media.rating}</div>
           <span>
             {media.progress}/{media.total}
           </span>

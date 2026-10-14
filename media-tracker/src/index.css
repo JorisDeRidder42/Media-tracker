@@ -82,6 +82,7 @@ select {
   border: 1px solid var(--border);
   border-radius: 14px;
   transition: 0.2s ease;
+  padding: 1em;
 }
 
 .media-card:hover {
