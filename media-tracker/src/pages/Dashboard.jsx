@@ -7,10 +7,7 @@ const Dashboard = () => {
   const favorites = media.filter((item) => item.favorite).length;
 
   const activeMedia = media.filter(
-    (item) =>
-      item.status === "watching" ||
-      item.status === "playing" ||
-      item.status === "reading",
+    (item) => item.status === "watching" || "playing" || "reading",
   ).length;
 
   return (

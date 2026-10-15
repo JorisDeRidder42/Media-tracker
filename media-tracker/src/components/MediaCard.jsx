@@ -2,7 +2,7 @@ const MediaCard = ({ media }) => {
   return (
     <div className="media-card">
       <div className="media-card-cover">
-        {/* <img src={media.path} alt={media.title} /> */}
+        <img src={media.path} alt={media.title} />
         <span>{media.type}</span>
       </div>
 
